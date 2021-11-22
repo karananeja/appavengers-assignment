@@ -1,0 +1,155 @@
+.mainSection {
+  display: flex;
+  flex: 0.8;
+  background-color: #f5f6f7;
+}
+
+.mainSection__left {
+  display: flex;
+  flex-direction: column;
+  flex: 0.55;
+  padding: 50px;
+}
+
+.mainSection__row {
+  display: flex;
+  flex-direction: row;
+}
+
+.mainSection__connection {
+  padding-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+.mainSection__favorite {
+  margin-left: 25px;
+  padding-left: 5px;
+  margin-top: 8px;
+  padding-top: 2px;
+  height: 20px;
+  width: 88px;
+  opacity: 0.4;
+  border-radius: 15px;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  background-color: #c8cacc;
+  font-weight: bold;
+}
+
+.mainSection__favorite > .MuiSvgIcon-root {
+  font-size: 1rem;
+}
+
+.mainSection__favorite:hover {
+  cursor: pointer;
+  background-color: #969799;
+}
+
+.mainSection__text {
+  display: flex;
+  flex-direction: row-reverse;
+  cursor: pointer;
+  color: #008fc7;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.mainSection__leftBox {
+  margin-top: 10px;
+  background-color: white;
+  height: 25vh;
+  box-shadow: 0.1em 0.1em 1em rgba(0, 0, 0, 0.1);
+}
+
+.mainSection__string {
+  font-weight: bold;
+  opacity: 0.7;
+  padding: 20px 0px;
+  padding-left: 20px;
+}
+
+.mainSection__string > .MuiSvgIcon-root {
+  font-size: 0.9rem;
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.mainSection__form {
+  padding-left: 20px;
+}
+
+form > input {
+  width: 90%;
+  padding: 8px 10px;
+  outline-color: #34a1eb;
+}
+
+.mainSection__formButton {
+  display: flex;
+}
+
+.mainSection__formButton > button {
+  margin-left: auto;
+  margin-top: 15px;
+  margin-right: 30px;
+  padding: 10px;
+  color: white;
+  background-color: #14644c;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+}
+
+.mainSection__right {
+  display: flex;
+  flex-direction: column;
+  flex: 0.45;
+  margin-right: 30px;
+}
+
+.mainSection__rightBox {
+  margin-top: 5px;
+  padding: 5px 25px;
+  text-align: justify;
+}
+
+.mainSection__buttonBox {
+  margin-top: 125px;
+  background-color: #e8eeec;
+}
+
+.mainSection__header {
+  margin-top: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  opacity: 0.7;
+}
+
+.mainSection__span {
+  padding-left: 5px;
+  color: #34a1eb;
+}
+
+.mainSection__rightBox > .mainSection__button > button {
+  padding: 5px;
+  color: #14644c;
+  font-weight: bold;
+  background-color: white;
+  border-color: #088c65;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.mainSection__rightBox > .mainSection__button > button:hover {
+  background-color: #088c65;
+  color: white;
+  border-color: black;
+}
+
+.mainSection__ex {
+  display: flex;
+  margin-top: 10px;
+  color: #34a1eb;
+}

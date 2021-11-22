@@ -1,0 +1,29 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  flex: 0.2;
+  background-color: #3d4f58;
+  color: white;
+  height: 97vh;
+  font-weight: bold;
+}
+
+.sidebar__line {
+  height: 1px;
+  background-color: #37474f;
+  width: 200px;
+}
+
+.sidebar__category {
+  padding: 5px 0;
+}
+
+.sidebar__icon {
+  background-color: #748690;
+  cursor: pointer;
+}
+
+.MuiSvgIcon-root {
+  padding-right: 5px;
+  vertical-align: middle;
+}

@@ -1,0 +1,15 @@
+.navbar {
+  margin: 0;
+  height: 3vh;
+  cursor: default;
+}
+.navbar__ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar__li {
+  list-style: none;
+  padding-right: 12px;
+}
